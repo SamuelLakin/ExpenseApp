@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+  background-color: #eef;
+}
+
+.buttonDelete {
+  padding: 4px 8px;
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3333;
+}
